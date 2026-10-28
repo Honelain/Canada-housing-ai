@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Raw and processed housing datasets
+data/raw/
+data/processed/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Trained machine learning models
+models/
+*.pkl
+*.joblib
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary practice notebooks
+notebooks/visualization.ipynb

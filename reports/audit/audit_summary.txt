@@ -1,0 +1,164 @@
+Canadian housing audit (read-only)
+Dataset: 44,896 rows, 23 columns
+Exact duplicate copies, keeping first: 4,082
+Unique approved-removal rows: 4,360
+Unique review-only rows: 1,714
+Counts overlap within categories; unique totals count each source row once.
+No rows or values were changed. Missing values are reported, not filled.
+
+Missing values by column:
+                missing_count  missing_percent
+City                        0             0.00
+Province                    0             0.00
+Latitude                    0             0.00
+Longitude                   0             0.00
+Price                       0             0.00
+Bedrooms                    0             0.00
+Bathrooms                   0             0.00
+Acreage                     0             0.00
+Property Type               0             0.00
+Square Footage              0             0.00
+Garage                      0             0.00
+Parking                     0             0.00
+Basement                29934            66.67
+Exterior                27457            61.16
+Fireplace                   0             0.00
+Heating                  6654            14.82
+Flooring                29680            66.11
+Roof                    34844            77.61
+Waterfront                  0             0.00
+Sewer                       0             0.00
+Pool                        0             0.00
+Garden                      0             0.00
+Balcony                     0             0.00
+
+Numeric validation findings (all raw rows):
+Negative Price                  0
+Negative Bedrooms               0
+Negative Bathrooms              0
+Negative Square Footage         0
+Negative Acreage                0
+Zero price                      0
+Zero floor area                 0
+Bathrooms > twice bedrooms    310
+Area > 10000                   94
+Bedrooms >= 18                 10
+Bathrooms >= 17                 6
+Price >= 5000000              791
+Acreage > 100                 130
+Acreage > 500 (subset)         12
+Categorical columns inspected: 16
+Rows with categorical blank/formatting issues (all raw rows): 534
+Categorical findings (all raw rows; zero-count rules omitted):
+City: case variants    534
+Location validation findings (all raw rows):
+Province: missing or blank         0
+City: missing or blank             0
+Latitude: missing                  0
+Latitude: non-numeric              0
+Latitude: outside global range     0
+Longitude: missing                 0
+Longitude: non-numeric             0
+Longitude: outside global range    0
+Coordinates: (0, 0)                0
+Price relationships exclude approved removals: Pearson/Spearman correlations and category price summaries.
+Rows used for price relationship analysis: 40,536
+Associations are descriptive, not causal or removal rules; no model was trained.
+Missing amenities remain unknown; rare categories are not automatically invalid.
+
+Per-rule counts:
+approved_removal  Exact duplicate copy (keep first)                 4082
+                  Bedrooms >= 2 and area < 400                         7
+                  Bedrooms >= 8 and area < 1200                        3
+                  Vacant Land                                         16
+                  Single Family with zero bedrooms and bathrooms     115
+                  Single Family with bedrooms but zero bathrooms     117
+                  Bedrooms >= 2 and 400 <= area < 500                 42
+                  Investigated Allison property                        1
+                  Investigated Kitchener property                      1
+                  Investigated Temiskaming Shores property             2
+                  Investigated Langley property                        1
+review_only       Negative Price                                       0
+                  Negative Bedrooms                                    0
+                  Negative Bathrooms                                   0
+                  Negative Square Footage                              0
+                  Negative Acreage                                     0
+                  Zero price                                           0
+                  Zero floor area                                      0
+                  Bathrooms > twice bedrooms                         303
+                  Area > 10000                                        86
+                  Bedrooms >= 18                                       8
+                  Bathrooms >= 17                                      6
+                  Price >= 5000000                                   779
+                  Acreage > 100                                      114
+                  Acreage > 500 (subset)                              10
+                  City: blank or whitespace-only                       0
+                  City: surrounding spaces                             0
+                  City: case variants                                521
+                  Province: blank or whitespace-only                   0
+                  Province: surrounding spaces                         0
+                  Province: case variants                              0
+                  Property Type: blank or whitespace-only              0
+                  Property Type: surrounding spaces                    0
+                  Property Type: case variants                         0
+                  Garage: blank or whitespace-only                     0
+                  Garage: surrounding spaces                           0
+                  Garage: case variants                                0
+                  Parking: blank or whitespace-only                    0
+                  Parking: surrounding spaces                          0
+                  Parking: case variants                               0
+                  Basement: blank or whitespace-only                   0
+                  Basement: surrounding spaces                         0
+                  Basement: case variants                              0
+                  Exterior: blank or whitespace-only                   0
+                  Exterior: surrounding spaces                         0
+                  Exterior: case variants                              0
+                  Fireplace: blank or whitespace-only                  0
+                  Fireplace: surrounding spaces                        0
+                  Fireplace: case variants                             0
+                  Heating: blank or whitespace-only                    0
+                  Heating: surrounding spaces                          0
+                  Heating: case variants                               0
+                  Flooring: blank or whitespace-only                   0
+                  Flooring: surrounding spaces                         0
+                  Flooring: case variants                              0
+                  Roof: blank or whitespace-only                       0
+                  Roof: surrounding spaces                             0
+                  Roof: case variants                                  0
+                  Waterfront: blank or whitespace-only                 0
+                  Waterfront: surrounding spaces                       0
+                  Waterfront: case variants                            0
+                  Sewer: blank or whitespace-only                      0
+                  Sewer: surrounding spaces                            0
+                  Sewer: case variants                                 0
+                  Pool: blank or whitespace-only                       0
+                  Pool: surrounding spaces                             0
+                  Pool: case variants                                  0
+                  Garden: blank or whitespace-only                     0
+                  Garden: surrounding spaces                           0
+                  Garden: case variants                                0
+                  Balcony: blank or whitespace-only                    0
+                  Balcony: surrounding spaces                          0
+                  Balcony: case variants                               0
+                  Province: missing or blank                           0
+                  City: missing or blank                               0
+                  Latitude: missing                                    0
+                  Latitude: non-numeric                                0
+                  Latitude: outside global range                       0
+                  Longitude: missing                                   0
+                  Longitude: non-numeric                               0
+                  Longitude: outside global range                      0
+                  Coordinates: (0, 0)                                  0
+
+Expected finding checks:
+MATCH: Bedrooms >= 2 and area < 400: expected 7, observed 7
+MATCH: Bedrooms >= 8 and area < 1200: expected 3, observed 3
+MATCH: Vacant Land: expected 16, observed 16
+MATCH: Single Family with zero bedrooms and bathrooms: expected 115, observed 115
+MATCH: Single Family with bedrooms but zero bathrooms: expected 117, observed 117
+MATCH: Bedrooms >= 2 and 400 <= area < 500: expected 42, observed 42
+Specific selector: Investigated Allison property: 1 rows (including duplicate copies)
+Specific selector: Investigated Kitchener property: 1 rows (including duplicate copies)
+Specific selector: Investigated Temiskaming Shores property: 2 rows (including duplicate copies)
+Specific selector: Investigated Langley property: 1 rows (including duplicate copies)
+London investigated record: 1 matched; 0 independently approved for removal
