@@ -1,0 +1,29 @@
+Canada housing cleaning summary
+Original rows: 44,896 (23 columns)
+Exact duplicate copies: 4,082
+Unique approved removals: 4,360
+Final rows: 40,536
+Review-only records retained: 1,714
+Rule counts overlap; removed rows are counted once by source row.
+
+Approved removal counts:
+Exact duplicate copy (keep first)                 4082
+Bedrooms >= 2 and area < 400                         7
+Bedrooms >= 8 and area < 1200                        3
+Vacant Land                                         16
+Single Family with zero bedrooms and bathrooms     115
+Single Family with bedrooms but zero bathrooms     117
+Bedrooms >= 2 and 400 <= area < 500                 42
+Investigated Allison property                        1
+Investigated Kitchener property                      1
+Investigated Temiskaming Shores property             2
+Investigated Langley property                        1
+
+PASS: expected audit totals and rule counts match.
+PASS: no approved-removal records or exact duplicates remain.
+PASS: all original columns and retained values preserved; index reset.
+PASS: review-only records retained; missing values left unchanged.
+No imputation, scaling, encoding, feature engineering, or training performed.
+City capitalization unchanged; canonical spellings remain to be specified.
+Raw dataset and audit files were not written to.
+Output: data/processed/cleaned_housing.csv (UTF-8; index=False)
