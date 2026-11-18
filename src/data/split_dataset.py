@@ -8,8 +8,8 @@ from sklearn.model_selection import train_test_split
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_PATH = PROJECT_ROOT / "data/processed/cleaned_housing.csv"
-DEVELOPMENT_PATH = PROJECT_ROOT / "data/processed/development_housing.csv"
-TEST_PATH = PROJECT_ROOT / "data/processed/test_housing.csv"
+DEVELOPMENT_PATH = PROJECT_ROOT / "data/splits/development_housing.csv"
+TEST_PATH = PROJECT_ROOT / "data/splits/test_housing.csv"
 RANDOM_STATE = 42
 
 

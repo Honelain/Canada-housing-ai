@@ -11,6 +11,7 @@ __pycache__/
 # Raw and processed housing datasets
 data/raw/
 data/processed/
+data/splits/
 
 # Environment variables and secrets
 .env
