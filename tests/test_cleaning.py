@@ -8,7 +8,7 @@ import unittest
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from src.cleaning.cleaning import (
+from src.cleaning.cleaning_pipeline import (
     ORIGINAL_COLUMNS, RAW_PATH, apply_approved_removals, save_cleaned_data,
     validate_audit_totals, validate_cleaning, validate_columns,
 )

@@ -98,9 +98,8 @@ been replaced with “No” or “None,” and no imputation strategy is approve
 
 - [`audit_summary.txt`](audit_summary.txt): dataset totals, missingness, numeric,
   categorical and location findings, rule counts, and expected-count checks.
-- [`audit_findings.xlsx`](audit_findings.xlsx): Column Overview, Rule Counts,
-  Categorical Profile, Price Relationships, and sectioned Flagged Records. Records
-  can appear in multiple workbook sections when they match multiple categories.
+- Excel report generation has been retired. Audit checks and price-relationship
+  calculations remain in the pipeline; no replacement report is generated.
 - [`flagged_records.csv`](flagged_records.csv): one row per flagged source record,
   retaining all 23 original columns, `source_index`, `reasons`, and `audit_status`.
 

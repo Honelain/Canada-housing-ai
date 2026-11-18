@@ -26,3 +26,6 @@ models/
 
 # Temporary practice notebooks
 notebooks/visualization.ipynb
+
+# VS Code local configuration
+.vscode/
