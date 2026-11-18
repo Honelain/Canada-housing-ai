@@ -18,7 +18,7 @@ EXPECTED_COUNTS = {
 def load_data():
     """Load the original CSV; never write changes back to it."""
     csv_path = PROJECT_ROOT / "data" / "raw" / "canada_housing.csv"
-    df = pd.read_csv(csv_path, encoding="latin1")
+    df = pd.read_csv(csv_path, encoding="utf-8")
     return df
 
 

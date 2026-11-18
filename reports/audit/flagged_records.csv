@@ -326,7 +326,7 @@ source_index,City,Province,Latitude,Longitude,Price,Bedrooms,Bathrooms,Acreage,P
 31672,Lockeport,NS,43.6967125,-65.1150208,1200000.0,12.0,6.0,1.14,Single Family,583.0,No,Yes,No basement,Wood,Yes,,carpet,,No,municipal,No,No,No,Bedrooms >= 8 and area < 1200,approved_removal
 31848,Miramichi,NB,46.99565,-65.5670567,69900.0,0.0,0.0,0.1,Single Family,1500.0,No,No,No basement,Vinyl,No,,,,No,municipal,No,No,No,Single Family with zero bedrooms and bathrooms,approved_removal
 31893,Chaplin Island Road,NB,47.0623943,-65.6691992,65000.0,2.0,0.0,0.41,Single Family,1020.0,No,No,No basement,Vinyl,No,radiant,vinyl,,No,septic,No,No,No,Single Family with bedrooms but zero bathrooms,approved_removal
-31902,Cap-PelÃ©,NB,46.0755768,-64.7089157,309900.0,3.0,2.0,0.57,Single Family,1165.0,No,No,,Vinyl,No,heat pump,vinyl,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
+31902,Cap-Pelé,NB,46.0755768,-64.7089157,309900.0,3.0,2.0,0.57,Single Family,1165.0,No,No,,Vinyl,No,heat pump,vinyl,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 32008,Fortune Cove,PE,46.7585449,-64.1306152,127999.0,3.0,1.0,0.0,Single Family,495.0,No,No,No basement,Wood,No,heat pump,,,No,septic,No,No,No,Bedrooms >= 2 and 400 <= area < 500,approved_removal
 32037,Bass River,NB,46.5623589,-65.0425034,424900.0,1.0,0.0,31.5,Single Family,1024.0,No,No,No basement,Wood,No,,,,No,none,No,No,No,Single Family with bedrooms but zero bathrooms,approved_removal
 32053,Scoudouc,NB,46.1716576,-64.5547714,79900.0,0.0,0.0,14.28,Single Family,353.0,No,No,,Vinyl,No,,vinyl,,No,none,No,No,No,Single Family with zero bedrooms and bathrooms,approved_removal
@@ -701,7 +701,7 @@ source_index,City,Province,Latitude,Longitude,Price,Bedrooms,Bathrooms,Acreage,P
 37667,Saint-Wilfred,NB,47.2475104,-65.208119,249900.0,4.0,1.0,1.0,Single Family,1928.0,No,No,,Vinyl,No,forced air,laminate,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 37670,Waterford,NB,45.6910194,-65.4066837,468800.0,5.0,2.0,1.0,Single Family,1378.0,Yes,No,,Vinyl,No,heat pump,,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 37673,Cocagne,NB,46.3443567,-64.6148235,799900.0,5.0,5.0,0.56,Single Family,3500.0,Yes,No,,Composite,No,heat pump,wood,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
-37678,Pointe-Du-ChÃªne,NB,46.2376334,-64.5123477,269900.0,2.0,1.0,0.1,Single Family,528.0,No,No,,Wood,No,heat pump,laminate,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
+37678,Pointe-Du-Chêne,NB,46.2376334,-64.5123477,269900.0,2.0,1.0,0.1,Single Family,528.0,No,No,,Wood,No,heat pump,laminate,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 37679,Moncton,NB,46.1272774,-64.709198,419900.0,3.0,3.0,0.08,Single Family,1630.0,Yes,No,,Vinyl,No,heat pump,tile,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 37682,Fredericton,NB,45.9912148,-66.5887604,399900.0,3.0,2.0,0.34,Single Family,1170.0,Yes,No,,Vinyl,No,heat pump,laminate,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 37683,Saint John,NB,45.3685347,-65.9323347,399900.0,4.0,3.0,2.2,Single Family,1120.0,Yes,No,,Vinyl,No,heat pump,wood,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
@@ -776,7 +776,7 @@ source_index,City,Province,Latitude,Longitude,Price,Bedrooms,Bathrooms,Acreage,P
 37936,Lower New Cornwall,NS,44.4922829,-64.4860611,419900.0,4.0,1.0,15.33,Single Family,1562.0,Yes,No,,Wood,No,,laminate,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 37937,Summerside,PE,46.4220238,-63.8115044,90000.0,2.0,1.0,0.0,Single Family,488.0,No,No,,Vinyl,No,heat pump,tile,,No,municipal,No,No,No,Bedrooms >= 2 and 400 <= area < 500,approved_removal
 37938,Barrie,ON,44.3620867,-79.7181309,565000.0,2.0,2.0,0.0,Condo,1087.0,No,Yes,,Brick,No,forced air,,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
-37943,RiviÃ¨re-Verte,NB,47.344429,-68.1310806,169000.0,4.0,2.0,0.3,Single Family,1271.0,No,No,,Vinyl,No,heat pump,vinyl,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
+37943,Rivière-Verte,NB,47.344429,-68.1310806,169000.0,4.0,2.0,0.3,Single Family,1271.0,No,No,,Vinyl,No,heat pump,vinyl,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 37944,St-Hilaire,NB,47.2907639,-68.4490051,285000.0,4.0,1.0,1.0,Single Family,1176.0,Yes,No,,Vinyl,No,heat pump,wood,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 37945,Moncton,NB,46.1088448,-64.8063049,419900.0,3.0,2.0,0.14,Single Family,1040.0,No,No,,Vinyl,No,forced air,,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 37949,Quispamsis,NB,45.4763389,-65.9127434,489900.0,3.0,3.0,0.97,Single Family,2200.0,No,No,,Metal,No,radiant,,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
@@ -858,7 +858,7 @@ source_index,City,Province,Latitude,Longitude,Price,Bedrooms,Bathrooms,Acreage,P
 38165,Moncton,NB,46.0631432,-64.8443539,199900.0,3.0,2.0,0.5,Single Family,957.0,No,No,,Vinyl,No,radiant,wood,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 38166,Irishtown,NB,46.201519,-64.7773209,899900.0,4.0,3.0,1.4,Single Family,1916.0,Yes,No,,Wood,Yes,heat pump,wood,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 38167,Moncton,NB,46.125906,-64.7709885,339900.0,4.0,2.0,0.31,Single Family,881.0,No,No,,Composite,No,,,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
-38168,Cap-PelÃ©,NB,46.2105141,-64.2633209,529900.0,3.0,4.0,0.27,Single Family,1417.0,Yes,No,,Vinyl,No,heat pump,tile,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
+38168,Cap-Pelé,NB,46.2105141,-64.2633209,529900.0,3.0,4.0,0.27,Single Family,1417.0,Yes,No,,Vinyl,No,heat pump,tile,,No,municipal,No,No,No,Exact duplicate copy (keep first),approved_removal
 38169,Martins Point,NS,44.50814,-64.305803,950000.0,3.0,1.0,4.79,Single Family,2068.0,Yes,No,,,Yes,,carpet,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 38176,Summerville,NB,45.3593674,-66.1127167,599900.0,5.0,3.0,36.0,Single Family,1568.0,No,No,,Vinyl,No,heat pump,carpet,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
 38177,Hammonds Plains,NS,44.7512763,-63.7758217,999900.0,5.0,4.0,1.48,Single Family,4557.0,Yes,No,,Brick,Yes,,carpet,,No,septic,No,No,No,Exact duplicate copy (keep first),approved_removal
